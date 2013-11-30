@@ -1,0 +1,21 @@
+body{background: #333;margin:0;padding:0; font-family: Arial}
+#wrapper{position: relative;}
+#mapa{width: 640px;height: 560px; margin: 0 0;}
+
+#track{height: 50px; width: 640px; background: #fff;color: #242742; font-size: 20px;font-weight: bold;position: relative;}
+#track #title{padding: 15px 20px; float: left;}
+#track #res{padding: 15px 20px; float: right;}
+#timerbg{width: 0px;height: 50px;background: rgba(150, 0, 0, 0.4);position: absolute;}
+
+.graph,.startgraph{width:250px;height: 230px;background: #fff; position: absolute; top:145px;left:195px;box-shadow: 0px 0px 15px #333;color: #425c85;font-weight: 700;-webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius: 10px; text-align: center;padding: 20px 0;}
+.graph *{padding: 5px;}
+.startgraph *{padding: 10px;}
+.startgraph p{font-size: 12px;}
+.graph .rezCity{padding-bottom: 25px;}
+.graph .rezDistance,.graph .rezPoints{padding-left: 35px; width: 80px;margin: 0 auto;}
+#nextbtn,#startbtn{width: 100px;height: 20px;background: #a6d1aa;padding:10px 35px; top:50px;position: relative; cursor: pointer;font-size: 14px;text-align: center;}
+.rezDistance{background: url(../img/pins_both.png) 0 0 no-repeat; height: 22px;}
+.rezPoints{background: url(../img/cup.png) 0 0 no-repeat; height: 22px;}
+h3{font-size: 24px;}
+h4{font-size: 20px;}
+.rezCity{color: #364a69;}

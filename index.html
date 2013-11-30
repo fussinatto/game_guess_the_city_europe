@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Europe Map</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div id="wrapper">
+	
+<div id='mapa'></div>
+
+
+<div class='startgraph'>
+	<h4>Welcome to "Where's the City" game</h3>
+	<p>Name ot the city appears at bottom ot the map. <br> Click on map where you think city is. <br><br>You have 5 sec per guess.</p>
+	<span id="startbtn">Start</span>
+</div>
+
+<div class='graph'>
+	<p class='rezArrNo'>01/25</p>
+	<h3 class='rezCity'></h3>
+	<p class='rezDistance'></p>
+	<h4 class='rezPoints'></h4>
+	<span id="nextbtn">Next</span>
+</div>
+
+<div id='track'>
+	<div id="timerbg"></div>
+	<span id="title"></span>
+	<span id="res"></span>
+</div>
+
+</div> <!--END wrapper-->
+<script type="text/javascript" src='js/raphael-min.js'></script>
+<script type="text/javascript" src='js/jquery.min.js'></script>
+<script type="text/javascript" src='js/mapa.js'></script>
+</body>
+</html>
